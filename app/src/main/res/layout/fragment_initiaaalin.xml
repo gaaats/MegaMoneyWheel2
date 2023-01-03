@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/bacccci"
+    android:layout_height="match_parent"
+    tools:context=".InitiaaalinFragment">
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/hhyyhhyhy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.95" />
+
+
+    <ImageView
+        android:id="@+id/btn_img_questiongtgtgtgt"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:alpha="0.6"
+        android:layout_marginBottom="8dp"
+        android:src="@drawable/qaaaueesstt"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="@id/hhyyhhyhy"/>
+
+
+
+    <TextView
+        android:id="@+id/tv_dovn_textyyyyyyyyy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:alpha="0.7"
+        android:fontFamily="@font/montserrat_black"
+        android:text="@string/app_nameeeeee"
+        android:textAllCaps="true"
+        android:textColor="@color/white"
+        android:textSize="11sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/hhyyhhyhy" />
+
+
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/hhyhyhyhy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.50" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/jukiiki"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.05" />
+
+
+
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/kikjujjujjuuj"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.05" />
+
+
+    <ImageView
+        android:id="@+id/img_titple_gamegttttttt"
+        android:layout_width="260dp"
+        android:layout_height="260dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/lolglgogo"
+        app:layout_constraintBottom_toBottomOf="@id/hhyyhhyhy"
+        app:layout_constraintDimensionRatio="1,1"
+        app:layout_constraintEnd_toEndOf="@id/bhnjjkiik"
+        app:layout_constraintStart_toStartOf="@id/jukiiki"
+        app:layout_constraintTop_toTopOf="@id/kikjujjujjuuj" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/bhnjjkiik"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.95" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tv_ttttttttext_tittttle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textSize="35sp"
+        android:fontFamily="@font/montserrat_black"
+        android:gravity="center"
+        android:lines="2"
+        android:text="@string/app_nameeeeee"
+        android:textAllCaps="true"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="@id/bhnjjkiik"
+        app:layout_constraintStart_toStartOf="@id/jukiiki"
+        app:layout_constraintBottom_toTopOf="@id/img_titple_gamegttttttt" />
+
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_play_gameeeeeeeeeeee"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/montserrat_black"
+        android:text="start"
+        android:layout_marginTop="32dp"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="@id/bhnjjkiik"
+        app:layout_constraintStart_toStartOf="@id/jukiiki"
+        app:layout_constraintTop_toBottomOf="@id/img_titple_gamegttttttt"
+        app:layout_constraintVertical_chainStyle="packed" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navviiiil"
+    app:startDestination="@id/initiaaalinFragment">
+
+    <fragment
+        android:id="@+id/initiaaalinFragment"
+        android:name="com.skgames.trafficriderp.InitiaaalinFragment"
+        android:label="fragment_initiaaalin"
+        tools:layout="@layout/fragment_initiaaalin" >
+        <action
+            android:id="@+id/action_initiaaalinFragment_to_gaaamerFragment"
+            app:destination="@id/gaaamerFragment" />
+        <action
+            android:id="@+id/action_initiaaalinFragment_to_teeextyFragment"
+            app:destination="@id/teeextyFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/gaaamerFragment"
+        android:name="com.skgames.trafficriderp.GaaamerFragment"
+        android:label="fragment_gaaamer"
+        tools:layout="@layout/fragment_gaaamer" >
+        <action
+            android:id="@+id/action_gaaamerFragment_to_ressstartttFragment"
+            app:destination="@id/ressstartttFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/teeextyFragment"
+        android:name="com.skgames.trafficriderp.TeeextyFragment"
+        android:label="fragment_teeexty"
+        tools:layout="@layout/fragment_teeexty" />
+    <fragment
+        android:id="@+id/ressstartttFragment"
+        android:name="com.skgames.trafficriderp.RessstartttFragment"
+        android:label="fragment_ressstarttt"
+        tools:layout="@layout/fragment_ressstarttt" >
+        <action
+            android:id="@+id/action_ressstartttFragment_to_gaaamerFragment"
+            app:destination="@id/gaaamerFragment"
+            app:launchSingleTop="true"
+            app:popUpTo="@id/gaaamerFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+</navigation>
